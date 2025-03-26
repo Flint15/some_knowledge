@@ -16,7 +16,7 @@ def grayscaling(rgb):
   return int(0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2])
 
 # Create a new list for gray Image
-gray_array = np.zeros((img_array.shape[0], img_array.shape[1], dtype=np.unit8)
+gray_array = np.zeros((img_array.shape[0], img_array.shape[1]), dtype=np.uint8)
 
 # Iterate over each pixel and convert to grayscale
 for i in range(img_array.shape[0]):
